@@ -22,13 +22,13 @@
                 <c:out value="${book.isbn}"/>
             </td>
             <td>
-                <c:out value="${book.title}"/>
+                <c:out value="${book.titel}"/>
             </td>
             <td>
                 <c:out value="${book.author}"/>
             </td>
             <td>
-                <c:out value="${book.avalable}"/>
+                <c:out value="${book.vergriffen}"/>
             </td>
 <%--            <td>--%>
 <%--                <a href="${pageContext.request.contextPath}/drivers/delete?id=${driver.id}">DELETE</a>--%>

@@ -1,8 +1,10 @@
-package org.example;
+package main.java.org.example;
 
-import org.example.dao.BookDao;
-import org.example.dao.BookDaoImpl;
-import org.example.model.Book;
+import main.java.org.example.dao.BookDao;
+import main.java.org.example.dao.BookDaoImpl;
+import main.java.org.example.model.Book;
+
+
 
 import java.util.List;
 

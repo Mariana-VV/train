@@ -1,6 +1,6 @@
-package org.example.model;
+package main.java.org.example.model;
 
-public class Sachbücher extends Book{
+public class Sachbücher extends Book {
     private String beschreibung;
 
     public Sachbücher() {

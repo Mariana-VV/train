@@ -1,8 +1,8 @@
-package org.example.controller.book;
+package main.java.org.example.controller.book;
 
-import org.example.dao.BookDao;
-import org.example.dao.BookDaoImpl;
-import org.example.model.Book;
+import main.java.org.example.dao.BookDao;
+import main.java.org.example.dao.BookDaoImpl;
+import main.java.org.example.model.Book;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;

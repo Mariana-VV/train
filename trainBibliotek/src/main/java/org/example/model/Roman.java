@@ -1,6 +1,6 @@
-package org.example.model;
+package main.java.org.example.model;
 
-public class Roman extends Book{
+public class Roman extends Book {
     private String genre;
 
     public Roman() {

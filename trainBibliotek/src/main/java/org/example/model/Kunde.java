@@ -1,4 +1,4 @@
-package org.example.model;
+package main.java.org.example.model;
 
 public class Kunde {
     private long kundennummer;
