@@ -1,12 +1,13 @@
-package main.java.org.example.dao;
+package org.example.dao;
 
-import main.java.org.example.model.Book;
-import main.java.org.example.model.Roman;
-import main.java.org.example.model.Sachbücher;
+import org.example.model.Book;
+import org.example.model.Roman;
+import org.example.model.Sachbücher;
 
 
 import org.example.util.ConnectionUtil;
 
+import javax.servlet.annotation.WebServlet;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

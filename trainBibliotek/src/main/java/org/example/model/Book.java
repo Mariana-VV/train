@@ -1,4 +1,4 @@
-package main.java.org.example.model;
+package org.example.model;
 
 public abstract class Book {
     private long isbn;
