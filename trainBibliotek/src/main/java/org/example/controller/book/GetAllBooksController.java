@@ -1,16 +1,17 @@
-package main.java.org.example.controller.book;
+package org.example.controller.book;
 
-import main.java.org.example.dao.BookDao;
-import main.java.org.example.dao.BookDaoImpl;
-import main.java.org.example.model.Book;
-
+import org.example.dao.BookDao;
+import org.example.dao.BookDaoImpl;
+import org.example.model.Book;
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
 
+@WebServlet("/books")
 public class GetAllBooksController extends HttpServlet {
     private BookDao bookDao = new BookDaoImpl();
 

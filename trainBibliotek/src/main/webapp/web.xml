@@ -5,10 +5,10 @@
          version="4.0">
     <servlet>
         <servlet-name>getAllBooksController</servlet-name>
-        <servlet-class>main.java.org.example.controller.book.GetAllBooksController</servlet-class>
+        <servlet-class>org.example.controller.book.GetAllBooksController</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>getAllBooksController</servlet-name>
-        <url-pattern>/books/all.jsp</url-pattern>
+        <url-pattern>/books</url-pattern>
     </servlet-mapping>
 </web-app>

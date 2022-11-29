@@ -34,6 +34,11 @@
             <artifactId>jstl</artifactId>
             <version>1.2</version>
         </dependency>
+        <dependency>
+            <groupId>org.apache.tomcat.embed</groupId>
+            <artifactId>tomcat-embed-core</artifactId>
+            <version>9.0.68</version>
+        </dependency>
     </dependencies>
 
 
@@ -44,9 +49,13 @@
                 <artifactId>maven-war-plugin</artifactId>
                 <version>3.3.2</version>
                 <configuration>
-                    <webXml>trainBibliotek/src/main/webapp/web.xml</webXml>
+                    <webXml>src/main/webapp/web.xml</webXml>
+                    <webXml>src/main/webapp/web.xml</webXml>
                 </configuration>
             </plugin>
+
+
+
         </plugins>
         <pluginManagement>
             <plugins>
@@ -60,13 +69,7 @@
                         <encoding>${project.build.sourceEncoding}</encoding>
                     </configuration>
                 </plugin>
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-war-plugin</artifactId>
-                    <configuration>
-                        <webXml>trainBibliotek/src/main/webapp/web.xml</webXml>
-                    </configuration>
-                </plugin>
+
 
 
             </plugins>
