@@ -9,6 +9,6 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>getAllBooksController</servlet-name>
-        <url-pattern>/books</url-pattern>
+        <url-pattern>/books/all</url-pattern>
     </servlet-mapping>
 </web-app>
